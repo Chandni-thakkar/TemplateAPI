@@ -1,0 +1,27 @@
+Their are need to create tneplate with provided detals. Please create APIs for the Create, Update, Delete, GET (All and by Id) API for same.
+
+{
+
+  "templateId": "t-0041575fd2",
+  "templateVersion": 1,
+  "channel": "EMAIL",
+  "users": [
+    {
+    "email": "p.bhavin29@gmail.com",
+    "emailType": "PRIMARY",
+    "bodyVars":
+         {
+            "totalVisitors":12,
+            "visitLink": "google",
+            "organizationName":"Google",
+            "visitRequestNumber": "VST-23434324",
+            "visitCancelledStageReason":"",
+            "visitStartTime":"12:12",
+            "recipientName":"my name",
+            "typeOfVisit":"General",
+            "visitEndTime":"15:00 pm",
+            "visitStartDate":"12-jan-2015"
+        }
+    }
+  ]
+}
